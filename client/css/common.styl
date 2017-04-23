@@ -1,0 +1,245 @@
+*{
+    box-sizing:border-box;
+}
+.header{
+    height:90px;
+    //background-color: #C0BBC5;
+    margin-bottom:50px;
+}
+
+.fontColor{
+  color:white;
+}
+.backgroundColor{
+  background-color:white;
+  border-radius:4px;
+}
+.header .title{
+    display:inline-block;
+    font-size:16px;
+}
+
+.header .username{
+    font-size:16px;
+    //padding-top:10px;
+    //padding-left:10px;
+    padding-right:10px;
+    display:inline-block;
+}
+
+#headerLine{
+    border-bottom:white 2px solid;
+}
+body
+{
+background-image: url("http://wallpaperpulse.com/img/3161949.jpg");
+height:100vh;
+width:100vw;
+}
+.login{
+opacity:0.8;
+height:100%;
+}
+@media only screen and (min-width: 667px) {
+.login{
+opacity:0.8;
+width:45%;
+}
+}
+.login:hover{
+  transition:1s;
+  opacity:1;
+}
+/**************************************************Nav Bar **************/
+
+.hello{
+    margin-top:-35px;
+}
+.navDiv{
+  margin-top:-15px;
+}
+
+
+.orderCreation{
+    margin-top:4px;
+    background-color:black;
+    width:90px;
+    height:25px;
+    color:white;
+}
+
+.icons{
+    padding-right:5px;
+    margin-top:4px;
+    width:30px;
+    height:25px;
+}
+
+.iconsSelected{
+    padding-right:5px;
+    margin-top:4px;
+    width:30px;
+    height:25px;
+    background-color:black;
+
+}
+
+.imgSelectedColor{
+    color:white;
+}
+
+.imgColor{
+    color:black;
+}
+.test-legend{
+    text-align:initial !important;
+}
+/************************Trader*************************/
+
+/*body{
+    background-color:#E0E0E0;
+}*/
+
+
+.table{
+    background-color:#424242;
+    border-radius:5px;
+    opacity:0.85;
+}
+.table:hover{
+  transition:1s;
+  opacity:1;
+}
+
+.chart{
+  background-color:white;
+  opacity:.85;
+}
+
+.chart:hover{
+  transition:1s;
+  opacity:1;
+}
+
+
+/*************************Mobile View**********************/
+
+
+
+
+
+.notification-container {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999999;
+  width: 320px;
+  padding: 0 15px;
+  max-height: calc(100% - 30px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.notification {
+  box-sizing: border-box;
+  padding: 15px 15px 15px 58px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #ccc;
+  box-shadow: 0 0 12px #999;
+  cursor: pointer;
+  font-size: 1em;
+  line-height: 1.2em;
+  position: relative;
+  opacity: 0.9;
+  margin-top: 15px;
+}
+
+.notification .title {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.notification:hover, .notification:focus {
+  opacity: 1;
+}
+
+.notification-enter {
+  visibility: hidden;
+  transform: translate3d(100%, 0, 0);
+}
+
+.notification-enter.notification-enter-active {
+  visibility: visible;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.4s;
+}
+
+.notification-leave {
+  visibility: visible;
+  transform: translate3d(0, 0, 0);
+}
+
+.notification-leave.notification-leave-active {
+  visibility: hidden;
+  transform: translate3d(100%, 0, 0);
+  transition: all 0.4s;
+}
+
+.notification:before {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -14px;
+  display: block;
+  font-family: 'Notification';
+  width: 28px;
+  height: 28px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.notification-info {
+  background-color: #2f96b4;
+}
+
+.notification-info:before {
+  content: "\f05a";
+}
+
+.notification-success {
+  background-color: #51a351;
+}
+
+.notification-success:before {
+  content: "\f058";
+}
+
+.notification-warning {
+  background-color: #f89406;
+}
+
+.notification-warning:before {
+  content: "\f06a";
+}
+
+.notification-error {
+  background-color: #bd362f;
+}
+
+.notification-error:before {
+  content: "\f057";
+}
+ /*********************Drawer******************/
+ .menuItem{
+   margin:0px;
+   padding:0px;
+ }
+/**********Chart**********************/
+.legendDiv{
+  margin-right:0px;
+}
