@@ -114,7 +114,7 @@ class TraderMainComponent extends React.Component {
                 <div className="Trader">
                     <HeaderComponent {...this.props} />
                     {view}
-                    <Websocket url='ws://localhost:8080/socket.io/?transport=websocket'
+                    <Websocket url='ws://blooming-badlands-32877.herokuapp.com/socket.io/?transport=websocket'
                         onMessage={this.handleData.bind(this)} />
                     <NotificationContainer />
                 </div>
